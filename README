@@ -1,3 +1,11 @@
+This is a fork of [zlib](https://www.zlib.net/), packaged for Zig. Unnecessary
+files have been deleted, and the build system has been replaced with
+`build.zig`.
+
+Original README follows:
+
+============================================================================
+
 ZLIB DATA COMPRESSION LIBRARY
 
 zlib 1.2.13 is a general purpose data compression library.  All the code is
