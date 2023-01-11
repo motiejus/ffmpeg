@@ -26,4 +26,6 @@ pub fn build(b: *std.build.Builder) void {
         "gzwrite.c",
     }, &.{});
     lib.install();
+    lib.installHeader("zconf.h");
+    lib.installHeader("zlib.h");
 }
